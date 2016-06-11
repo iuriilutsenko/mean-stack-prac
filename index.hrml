@@ -1,0 +1,23 @@
+<meta charset="utf-8">
+<h1>Интернет-магазин</h1>
+
+<h2>Запуск и работа сервера с базой данных</h2>
+
+<p>Запуск:</p>
+
+<p><code>
+mongod --dbpath ./data/db
+</code></p>
+
+<p>Консоль БД:</p>
+
+<p><code>
+mongo
+</code></p>
+
+<p>Пример команды:</p>
+
+<p><code>javascript
+db.data.insert({ foo: 'bar' });
+db.data.find({ foo: 'bar' });
+</code></p>
